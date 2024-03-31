@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.oldkingok.fixforgenull.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "FixForgeNull.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MixinTierSortingRegistry"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
